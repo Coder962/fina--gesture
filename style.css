@@ -1,0 +1,83 @@
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.home {
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    height:100vh;
+    width:100vw;
+    bottom:0;
+    left:0;
+    position:absolute;
+
+}
+#wave {
+    bottom:0;
+    left:0;
+    position:absolute;
+}
+.home_img{
+    border-style:dashed; 
+    border-width:0.3rem;
+    width:20rem;
+    max-width: 100%;
+    margin: auto; 
+    height: auto;
+    background: #00C9FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius:50%;
+}
+.content {
+    display:flex;
+}
+.image {
+    padding:2rem;
+    min-width:50%;
+    max-width:50%;
+    display: flex;
+}
+.text {
+    padding:2rem;
+    min-width:50%;
+    max-width:50%;
+    display:flex;
+}
+.text-content{
+    height: auto;
+    margin: auto; 
+}
+.heading {
+    font-family: 'Righteous', cursive;
+}
+button {
+    border-radius: 28px;
+    padding: 10px 20px 10px 20px;
+    border-color: white;
+    border-style: none;
+    display:block;
+    position:absolute;
+    height: auto;
+    background: #F09819;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+color:black;
+-webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+button:hover {
+    background: #fe8c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+cursor:pointer;
+  }
+  a {
+      text-decoration:none;
+      color:black;
+  }
